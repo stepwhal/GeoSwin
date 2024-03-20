@@ -1,2 +1,2 @@
 # GeoSwin
-![](Figure 1.png)
+(Figure 1.png)

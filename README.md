@@ -1,9 +1,18 @@
 # Multiscale geometric window transformer for orthodontic teeth point cloud registration
 ![Image text](Pipline.png)
 
-## Model and code
+### Introduction
 
-The model and code will be released soon.
+## Install
+
+## Code 
+
+The code will be released soon.
+
+### Model
+Our pre-trained checkpoints
+
+
 
 
 

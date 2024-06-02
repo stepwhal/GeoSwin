@@ -11,11 +11,12 @@ Paper is available at [it](https://link.springer.com/article/10.1007/s00530-024-
 Our code is largely based on [Geotransformer](https://github.com/qinzheng93/GeoTransformer), and the environment installation process can be referred to as in [it](https://github.com/qinzheng93/GeoTransformer). Here, we express our gratitude for their outstanding work.
 
 ### Code
-```bash
 Please replace file ../geotransformer/modules/geotransformer/geotransformer.py with geotransformer.py in the Git repository.
+
 Please replace file ../geotransformer/modules/transformer/rpe_transformer.py with rpe_transformer.py in the Git repository.
+
 Please replace file ../geotransformer/modules/geotransformer/conditional_transformer.py with conditional_transformer.py in the Git repository.
-```
+
 ### Pre-trained Weights 
 We provide pre-trained weights in the release page.
 

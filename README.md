@@ -11,20 +11,23 @@ Paper is available at [it](https://link.springer.com/article/10.1007/s00530-024-
 Our code is largely based on [Geotransformer](https://github.com/qinzheng93/GeoTransformer), and the environment installation process can be referred to as in [it](https://github.com/qinzheng93/GeoTransformer). Here, we express our gratitude for their outstanding work.
 
 ### Code
+```bash
 Please replace file ../geotransformer/modules/geotransformer/geotransformer.py with geotransformer.py in the Git repository.
 Please replace file ../geotransformer/modules/transformer/rpe_transformer.py with rpe_transformer.py in the Git repository.
 Please replace file ../geotransformer/modules/geotransformer/conditional_transformer.py with conditional_transformer.py in the Git repository.
-
+```
 ### Pre-trained Weights 
 We provide pre-trained weights in the release page.
 
 ### Testing in Shining3D and Oral3 Dental Datasets 
+```bash
 CUDA_VISIBLE_DEVICES=0 python test.py --snapshot=../../weights/Shining3D.pth.tar
 CUDA_VISIBLE_DEVICES=0 python test.py --snapshot=../../weights/Oral3.pth.tar
-
+```
 ### Testing in Kitti odometry 
+```bash
 CUDA_VISIBLE_DEVICES=0 python test.py --snapshot=../../weights/Kitti.pth.tar
-
+```
 ## Citation
 ```
 Wang, H., Tian, Y., Xu, Y. et al. Multiscale geometric window transformer for orthodontic teeth point cloud registration. Multimedia Systems 30, 164 (2024). https://doi.org/10.1007/s00530-024-01369-x

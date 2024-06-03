@@ -36,8 +36,7 @@ Wang, H., Tian, Y., Xu, Y. et al. Multiscale geometric window transformer for or
 
 ## Acknowledgements
 - [Geotransformer](https://github.com/qinzheng93/GeoTransformer)
-- [PREDATOR](https://github.com/prs-eth/OverlapPredator)
-- [CoFiNet](https://github.com/haoyu94/Coarse-to-fine-correspondences) 
+
 
 
 
